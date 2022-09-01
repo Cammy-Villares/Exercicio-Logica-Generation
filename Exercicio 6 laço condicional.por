@@ -1,0 +1,40 @@
+programa
+{
+	inclua biblioteca Matematica--> mat
+	
+	funcao inicio()
+	{
+		inteiro idade
+		escreva("\n Informe a idade do nadador:")
+		leia(idade)
+		se (idade < 5){
+			escreva ("\n Você é muito novo!!!")
+			
+		} senao se (idade <= 7){
+			escreva ("\n Categoria Infantil A")
+		} senao se (idade <= 11){
+			escreva ("\n Categoria Infantil B")
+			
+		} senao se (idade <= 13){
+			escreva ("\n Categoria Juvenil A")
+		} senao se (idade <= 17){
+			escreva ("\n Categoria Juvenil B")
+		} senao {
+			escreva ("\n Categoria Adulto")
+		}
+	
+		 
+		
+	}
+}
+/* $$$ Portugol Studio $$$ 
+ * 
+ * Esta seção do arquivo guarda informações do Portugol Studio.
+ * Você pode apagá-la se estiver utilizando outro editor.
+ * 
+ * @POSICAO-CURSOR = 318; 
+ * @PONTOS-DE-PARADA = ;
+ * @SIMBOLOS-INSPECIONADOS = ;
+ * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
+ * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
+ */
